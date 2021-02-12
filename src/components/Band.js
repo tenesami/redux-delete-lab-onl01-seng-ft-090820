@@ -12,3 +12,8 @@ class Band extends Component {
 };
 
 export default Band;
+
+
+
+import React from 'react'
+
