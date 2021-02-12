@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
-//import BandsContainer from './BandsContainer';
+import React from 'react';
+import Band from './Band';
+
 
 const Bands = props => {
-    const bandList = props.bands.map(band => <Band key={band.id} band={band} />)
+    //console.log(props)
+    const bandList = props.bands.map((band, id)=> <Band key={id} band={band} />)
   return (
     <div>
-      {bandList}
+      <ul>
+        {bandList}
+      </ul>
+      
     </div>
   )
 }
-
+export default Bands;
