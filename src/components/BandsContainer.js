@@ -4,7 +4,6 @@ import Bands from './Bands';
 import { connect } from 'react-redux'
 
 class BandsContainer extends Component {
-  
 
   render() {
     //console.log(this.props.bands)
